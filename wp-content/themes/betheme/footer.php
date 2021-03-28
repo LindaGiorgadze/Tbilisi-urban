@@ -112,7 +112,6 @@ if ($back_to_top_class == 'hide') {
 			<div class="footer_copy">
 				<div class="container">
 					<div class="column one">
-
 						<?php
 							if ($back_to_top_position == 'copyright') {
 								echo '<a id="back_to_top" class="footer_button" href=""><i class="icon-up-open-big"></i></a>';
@@ -136,7 +135,8 @@ if ($back_to_top_class == 'hide') {
 								get_template_part('includes/include', 'social');
 							}
 						?>
-
+						<img id="iliauni-logo" src="http://localhost/tbilisi-urban/wp-content/uploads/2021/03/iliauni-logo-white.png">
+						
 					</div>
 				</div>
 			</div>
